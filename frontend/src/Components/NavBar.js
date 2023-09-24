@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import {GiHamburgerMenu} from 'react-icons/gi'
-import './NavBar.css'
+import '../styles/NavBar.css'
 import logo from "../images/CareGrid_logo.png"
 
 function NavBar() {

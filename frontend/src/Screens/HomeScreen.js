@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
-import'./HomeScreen.css'
+import'../styles/HomeScreen.css'
 import NavBar from '../Components/NavBar'
 import doctors from "../images/doctor-bg.png"
 import design1 from '../images/design1.png'
