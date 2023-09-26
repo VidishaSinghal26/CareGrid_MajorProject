@@ -5,7 +5,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-.parent{
+.nb-parent{
     height: 10vh;
     width: 100%;
     background-color: transparent;
@@ -13,32 +13,32 @@
     align-items: center; 
     padding:4vw 4vw 3vw 4vw;
 }
-.parent .child{
+.nb-parent .nb-child{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* gap:15vw */
 }
-.part1{
+.nb-part1{
     gap:10px;
     display: flex;
     justify-content: center;
     /* margin-top: 8vw; */
 }
 
-.parent .part1{
+.nb-parent .nb-part1{
     font-size: 3.3vw;
     text-decoration:none ; 
     color: black;
 }
-.part1 img{
+.nb-part1 img{
     height: 40px;
     width: 50px;
     margin-top: 0.5vw;
 }
 
-.parent .part2 {
+.nb-parent .nb-part2 {
     font-size: 1.52vw;
     margin-right: 2.5vw;
     display: flex;
@@ -47,29 +47,29 @@
     list-style-type: none;
     /* cursor: pointer; */
 }
-.parent .part2 li:hover {
+.nb-parent .nb-part2 li:hover {
     font-size: 1.7vw;
     /* cursor: pointer; */
 }
 
-.parent .part2 .green-in{
+.nb-parent .nb-part2 .green-in{
     color: white;
     margin-left: 5vw;
 }
-.parent .part2 a{
+.nb-parent .nb-part2 a{
     text-decoration:none ; 
       color:grey;
 }
 
 
-.parent .hamburger-menu{
+.nb-parent .hamburger-menu{
     font-size: 4vw;
     display:none;
     padding-right: 1.8vw;
     color: white;
 }
 
-.parent .part21 {
+.nb-parent .nb-part21 {
     width: 24%;
     background: #f9f5f5d7;
     border-radius:10px;
@@ -90,12 +90,12 @@
     padding: 2vw 1vw 2vw 1vw;
 } */
 
-.parent .part21 a{
+.nb-parent .nb-part21 a{
     text-decoration:none ; 
       color:grey;
 }
 
-.parent .nav-btn{
+.nb-parent .nav-btn{
     padding: 0.5vw 1vw 0.5vw 1vw;
     border-radius: 8px;
     border: 2px solid white;
@@ -103,29 +103,29 @@
     color: white;
     /* border: 1px solid white; */
 }
-.parent .nav-btn:hover{
+.nb-parent .nb-nav-btn:hover{
     background-color: gray;
 }
 
 @media (max-width:625px) {
-    .parent{
+    .nb-parent{
         height: 8vh;
         padding: 0.5vw 4vw 0vw 4vw;
     }
-    .parent .child{
+    .nb-parent .nb-child{
         /* gap:50vw; */
         margin-right:2vw;
     }
-    .parent .part1{
+    .nb-parent .nb-part1{
         font-size: 5vw;
     }
-    .parent .part2 li{
+    .nb-parent .nb-part2 li{
         display: none;
     }
-    .parent  .hamburger-menu{
+    .nb-parent  .hamburger-menu{
        display: block;
     }
-    .parent .nav-btn{
+    .nb-parent .nav-btn{
         font-size: 2.5vw;
     }
 }

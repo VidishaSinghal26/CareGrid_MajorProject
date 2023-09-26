@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import'../styles/HomeScreen.css'
 import NavBar from '../Components/NavBar'
+import AutoSlider from '../Components/AutoSlider'
 import doctors from "../images/doctor-bg.png"
 import design1 from '../images/design1.png'
 import design2 from '../images/design2.png'
@@ -14,6 +15,7 @@ function HomeScreen() {
      <>
      
      <div className='main' >
+
         <div className='sec1'>
           <NavBar />
           <div className="inner">
@@ -32,6 +34,8 @@ function HomeScreen() {
             </div>
           </div>
         </div>
+
+
         <div className='sec2'>
           <h1>The Best Quality Services You Can Get</h1>
           <div className="inner">
@@ -39,14 +43,17 @@ function HomeScreen() {
             <div className="card"></div>
             <div className="card"></div>
           </div>
-            
         </div>
+
+
         <div className='sec3'>
             
         </div>
+
         <div className='sec4'>
-            
+            <AutoSlider />
         </div>
+        
         <div className='sec5'>
             
         </div>

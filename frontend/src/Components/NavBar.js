@@ -9,19 +9,19 @@ function NavBar() {
     const [click, setClick] = useState(false);
     const [isLogin,setisLogin] = useState(false) ; 
    return (
-    <nav className="parent">
-        <div className='child'>
-            <a className="part1" href='/home'>
+    <nav className="nb-parent">
+        <div className='nb-child'>
+            <a className="nb-part1" href='/home'>
             <img src={logo} alt="" />
                 <div>CareGrid</div>
             </a>
-            <div className={!click ?"part2":"part21"}>
+            <div className={!click ?"nb-part2":"nb-part21"}>
               <li><a href='/appointment'>Appointment</a></li>
               <li><a href='/beds'>Beds</a></li>
               <li><a href='/medicines'>Medicines</a></li>
               <li><a href='/about' className='green-in'>About</a></li>
               <li><a href='/contact' style={{color:'white'}}>Contact</a></li>
-              <li className='nav-btn'>{isLogin ? "Profile":"Login"}</li>
+              <li className='nav-btn'>{isLogin ? <Link to={'/profile'}>Profile</Link>: <Link to={'/login'}>Login</Link>}</li>
              
             </div>
             

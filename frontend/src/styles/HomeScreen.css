@@ -118,3 +118,21 @@
     background:  #f1f7f7;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.17) ;
 }
+
+.sec3{
+    height: 43vw;
+    background: #f9fbfb;
+    filter: blur(0.4px);
+}
+
+.sec4{
+    height: 35vw;
+    background: #f9fbfb;
+    filter: blur(0.4px);
+}
+
+.sec5{
+    height: 23vw;
+    background: #25bfab;
+    filter: blur(0.4px);
+}
